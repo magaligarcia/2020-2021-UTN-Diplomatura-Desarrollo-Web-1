@@ -1,0 +1,496 @@
+body{
+    margin: 0;
+}
+
+.encabezado, .ul, .contenido, .contenido-lateral, .pie-pagina {
+   padding: 1em 2em;
+}
+
+.contenido, .contenido-lateral, .pie-pagina {
+    float: left;
+    box-sizing: border-box;
+}
+
+.contenido{
+    width:60%;
+}
+/*---- ENCABEZADOS --------------------------------------------------------------------------------------------------------------------*/
+.encabezado_inicio {
+    line-height: center ;
+    color: #FFFFFF;
+    font-size: 50px;
+    background-image: url(../img/header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:200px;
+	width: 100%;
+}
+
+.encabezado{
+    background-color: #e7e3c9;
+    height: 70px;
+    color: #8aa4b3;
+    font-size: 150%;
+    text-align: center;
+    line-height: auto;
+    width: 100%;
+}
+
+
+
+/*---- BOTONERA --------------------------------------------------- ---------------------------------------------------------------------*/
+nav{
+    text-align: center; 
+    background-color: #3fab9b;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}             
+
+.ul{
+     margin: 0;
+    padding: 0;
+    list-style-type: none;
+        }
+        
+.ul li { 
+    display:inline;
+    vertical-align: top;
+    padding: 10px;
+        }
+        
+.ul li a {
+    display: inline-block; 
+    margin-left: 0;
+    width: 20%;
+    height:50px;
+    background-color:#3fab9b;
+    margin-bottom: 5%;
+    color:#FFFFFF; 
+    text-decoration: none; 
+    text-align: center; 
+    line-height: 50px; 
+        }
+        
+.ul li a:hover { 
+            background-color: #cee5d0; 
+            color: #FFFFFF; 
+        }
+                                
+/*----  INICIO -------------------------------------------------------------------------------------------------------------------*/
+
+#galeria_inicio {
+    clear: both;
+    background-color: #b8cabf;
+    }
+    
+#galeria_inicio img {
+    width: 24%;
+    margin: 3px;
+}
+
+
+#cantNoches, #cantPersonas {
+    width: 85%;
+    }
+
+.MiBoton {
+    padding: 8px;
+    margin-left: 9px;
+    background-color: #4a5164;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.post{
+    background-color:#e3dad2 ;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 1em;
+}
+
+#post2{
+    background-color: #9cb2a5;
+    padding: 5px;
+}
+#post3{
+    background-color:#8aa4b3;
+    padding: 5px;
+}
+
+#post4{
+    background-color:#c8b7c9;
+    padding: 5px;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  #4a5164;
+    font-size: xx-large;
+}
+
+h3, h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4a5164;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    color: #222121;
+}
+
+
+
+/*---- INICIO - ASIDE NOSOTROS --------------------------------------------------------------------------------------------------------------------------------------*/
+.contenido-lateral {
+    width: 40%;
+    background-color: #cfbeb4;
+    height: 100%;
+    text-align: center;
+    }
+
+
+
+/*----- SECCION ARTICULOS ----------------------------------------------------------------------------------------------------------------*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2 2px;
+    position: relative;
+  }
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+
+.column {
+    flex: 25%;
+    max-width: 24%;
+    padding: 0 4px;
+  }
+
+.contenedorTexto {
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: x-large;
+  }
+
+a{  text-decoration: none;
+    color: #FFFFFF;}
+
+a:visited {color: #ffffff;}
+
+a:focus {color: #c8b7c9;}
+
+a:hover {color: #3fab9b;}
+
+a:active {color: #cfbeb4;}
+
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+
+
+
+  /*---- SECCION FRIENDLY -------------------------------------------------------------------------------------------------------------------*/
+
+#cajaDatosUsuario{
+    background-color:#e3dad2 ;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 1em;
+}
+
+#visa{
+background-color:#c8b7c9 ;
+width: 100%;
+height: 100%;
+position: relative;
+margin-bottom: 1em;
+
+}
+
+.img{
+    float: left;
+    width: 30%;
+    height: 30%;
+}
+
+.paises{
+    clear: both;
+    padding: 10px;
+}
+
+.textoPaises{
+    text-align: left; 
+    line-height: 20px; 
+}
+
+/*---- SECCION FORMULARIO DE CONTACTO / ESCRIBINOS ----------------------------------------------------------------------------------------------------*/
+.contenido {
+    width: 100%;
+    font-family: Calibri;
+	padding: 10px 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+.texto_form{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    margin-right: 10%;
+    font-size: larger;
+    font-weight: 600;
+    color: #4a5164
+}
+
+#form, input {
+    width: 100%;
+	padding: 10px;
+	margin-bottom: 5px;
+    border-width: 2px;
+    border-color: #94BFAE;
+    display: block;
+}
+
+#consulta {
+width: 100%;
+padding: 10px;
+font-family: Calibri;
+border-width: 2px;
+border-color: #94BFAE;
+}
+
+/*----- FOOTER ------------------------------------------------------------------------------------------------------------------------------------*/
+.pie-pagina{
+    width: 100%;
+    background-color: #94bfae;
+    height: 60px;    
+    text-align: center;
+    color: #f4f0d7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*---------------------------------------RESPONSIVE 1025/1920px ---------------------------------------*/
+@media screen and (min-width:1025px) and (max-width: 1920px){
+
+#galeria_inicio img {
+    width: 23%;
+    margin: 3px;
+}
+.contenido{
+    display: block;
+    width: 50%;  
+} 
+   
+.contenido-lateral{
+   display: inline-block;
+   width: 50%;
+}
+/*----NOMADA FRIENDLY*/
+.img{
+    float: left;
+    width: 40%;
+    display: inline;
+}
+
+.textoPaises{
+    font-size: medium;
+    padding: 10px;
+    text-align: left;
+    margin-left: 10px;
+    line-height: 20px;  
+}
+
+.encabezado{
+    float: inherit;
+    width: 90%;
+    margin:10px auto;
+    display:block;
+}
+}
+
+/*---------------------------------------RESPONSIVE 600/1024px ---------------------------------------*/
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+/*----INICIO*/
+    .contenido{
+    display: block;
+    width: 100%;
+    
+}    
+.contenido-lateral{
+   display: block;
+   width: 100%;
+}
+
+.contenido-lateral, .nosotros{
+    text-align: left;
+}
+
+.nosotros {
+    padding: 0px;
+}
+
+.contenido-lateral, h2 {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#galeria_inicio  {
+width: 100%;
+}
+#galeria_inicio img {
+    width: 23%;
+    margin: 3px;
+}
+#cantNoches, #cantPersonas {
+    width: 94%;
+    }
+    
+.MiBoton{
+    text-align: center;
+    display: block;
+    width: 50%;
+    border-radius: 0%;
+    margin-top: 5px;
+}
+
+/*----COMUNIDAD*/
+.encabezado{
+    float: inherit;
+    width: 80%;
+    margin:10px auto;
+    display:block;
+}
+.row {
+    display: inline-flex;
+    flex-wrap: inherit;
+    position: relative;
+    
+    
+  }
+.contenedorTexto {
+font-size:large;
+max-width: 100%;
+}     
+
+
+/*----NOMADA FRIENDLY*/
+.img{
+    float: inherit;
+    width: 80%;
+    margin:10px auto;
+    display:block;
+}
+
+.paises{
+    clear: both;
+    padding: 10px;
+    background-color:#f0e7df;
+}
+
+.textoPaises{
+    padding: 10px;
+    text-align: left;
+    line-height: 20px;  
+}
+
+/*----ESCRIBENOS*/
+
+#form, input {
+    width: 70%;
+    padding: 2px;
+    margin-bottom: 5px;
+    border-width: 3px;
+    border-color: #999999;
+    display: inline-block;
+}
+}
+
+/*---------------------------------------RESPONSIVE -599px ---------------------------------------*/
+@media screen and (max-width: 599px){
+.contenido{
+    width: 100%;
+    height: 100%;
+}
+#galeria_inicio img {
+    
+    width: 100%;
+    display: inline-block;   
+}
+#cantNoches, #cantPersonas {
+    width: 90%;
+    }
+    
+.MiBoton{
+    text-align: center;
+    display: block;
+    width: 90%;
+    border-radius: 0%;
+    margin-top: 5px;
+}
+.contenido-lateral{
+    display: none;
+}
+
+/*----COMUNIDAD*/
+.encabezado{
+    width: auto;
+    font-size: large;
+}
+
+.nav ul li{
+    display: block;
+    height: 25px;
+}
+.nav{
+    height: 200px;
+}
+.column {
+flex: 100%;
+max-width: 150%;
+}   
+
+/*----NOMADÁ FRIENDLY*/
+.img{
+    float: inherit;
+    width: 100%;
+}
+
+.paises{
+    clear: both;
+    padding: 10px;
+    background-color:#cfcfcf;
+}
+
+.textoPaises{
+    text-align: left;
+    line-height: 20px; 
+}
+
+
+/*----ESCRIBENOS*/
+
+#form, input {
+    width: 70%;
+    padding: 2px;
+    margin-bottom: 5px;
+    border-width: 5px;
+    border-color: #bdc5c2;
+    display: inline-block;
+}
+
+}
